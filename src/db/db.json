@@ -1,0 +1,43 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Appartement bruxelles ouest",
+      "address": {
+        "street": "2 rue de l'Abbaye",
+        "zip_code": "1010",
+        "city": "Bruxelles",
+        "country": {
+          "name": "Belgique",
+          "code": "BE"
+        }
+      },
+      "tax_revenue": {
+        "rents": 9862,
+        "subsidies": 256,
+        "total": 10118
+      },
+      "costs": {
+        "expense": 450,
+        "tax": 1000,
+        "insurance_premiums": 250,
+        "total": 1700
+      },
+      "net_income": 8418
+    }
+  ],
+  "countries": [
+    {
+      "name": "France",
+      "code": "FR"
+    },
+    {
+      "name": "Belgique",
+      "code": "BE"
+    },
+    {
+      "name": "Suisse",
+      "code": "CH"
+    }
+  ]
+}
