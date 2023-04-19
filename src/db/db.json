@@ -1,5 +1,5 @@
 {
-  "list": [
+  "real-estates": [
     {
       "id": 1,
       "name": "Appartement bruxelles ouest",
@@ -24,6 +24,31 @@
         "total": 1700
       },
       "net_income": 8418
+    },
+    {
+      "id": 2,
+      "name": "Appartement Nîmes",
+      "address": {
+        "street": "esplanade de la liberation",
+        "zip_code": "30180",
+        "city": "Nimes",
+        "country": {
+          "name": "France",
+          "code": "FR"
+        }
+      },
+      "tax_revenue": {
+        "rents": 24567,
+        "subsidies": 4567,
+        "total": 29134
+      },
+      "costs": {
+        "expense": 5670,
+        "tax": 2456,
+        "insurance_premiums": 670,
+        "total": 8796
+      },
+      "net_income": 20338
     }
   ],
   "countries": [
