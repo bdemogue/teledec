@@ -29,7 +29,7 @@
       "id": 2,
       "name": "Appartement Nîmes",
       "address": {
-        "street": "esplanade de la liberation",
+        "street": "Esplanade de la liberation",
         "zip_code": "30180",
         "city": "Nimes",
         "country": {
@@ -49,6 +49,31 @@
         "total": 8796
       },
       "net_income": 20338
+    },
+    {
+      "id": 3,
+      "name": "Appartement Strasbourg",
+      "address": {
+        "street": "9 rue Orbey",
+        "zip_code": "67000",
+        "city": "Strasbourg",
+        "country": {
+          "name": "France",
+          "code": "FR"
+        }
+      },
+      "tax_revenue": {
+        "rents": 18965,
+        "subsidies": null,
+        "total": 18965
+      },
+      "costs": {
+        "expense": null,
+        "tax": 3459,
+        "insurance_premiums": null,
+        "total": 3459
+      },
+      "net_income": 15506
     }
   ],
   "countries": [

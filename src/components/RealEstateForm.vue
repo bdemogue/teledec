@@ -61,17 +61,13 @@ const getCountries = async () => {
 getCountries();
 
 watchEffect(() => {
-    if( Object.keys(realEstate).length === 0 ||
-        realEstate.tax_revenue?.rents === null ) return;
-    realEstate.tax_revenue.total = realEstate.tax_revenue.rents + (realEstate.tax_revenue.subsidies ?? 0);
+    if( Object.keys(realEstate).length === 0) return;
+    realEstate.tax_revenue.total = (realEstate.tax_revenue.rents ?? 0) + (realEstate.tax_revenue.subsidies ?? 0);
 });
 
 watchEffect(() => {
-    if( Object.keys(realEstate).length === 0 ||
-        realEstate.costs?.expense === null ||
-        realEstate.costs?.tax === null ||
-        realEstate.costs?.insurance_premiums === null) return;
-    realEstate.costs.total = realEstate.costs.expense + realEstate.costs.tax + realEstate.costs.insurance_premiums;
+    if( Object.keys(realEstate).length === 0) return;
+    realEstate.costs.total = (realEstate.costs.expense ?? 0) + (realEstate.costs.tax ?? 0) + (realEstate.costs.insurance_premiums ?? 0);
 });
 
 watchEffect(() => {
