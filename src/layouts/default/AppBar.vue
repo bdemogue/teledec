@@ -3,7 +3,7 @@
         <v-container class="">
             <v-app-bar-title>
                 <v-icon color="primary" icon="mdi-file-sign" />
-               teledec
+               test
             </v-app-bar-title>
         </v-container>
   </v-app-bar>
